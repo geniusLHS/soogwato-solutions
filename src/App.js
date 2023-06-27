@@ -35,10 +35,10 @@ function App() {
     <div className="py-8 sm:py-12 font-sans px-4 bg-[#fbfbfb]">
       <div className="max-w-xl mx-auto w-full space-y-10">
         <header className="space-y-3">
-          <h1 className="text-[2.5rem] font-extrabold">
+          <h1 className="text-3xl md:text-[2.5rem] font-extrabold">
             <img alt="soogwato-logo" src="logo.png" className="h-12 inline mx-1 pb-2"></img> 수과토 솔루션 모음집
           </h1>
-          <p className="text-lg">솔루션 및 기출 문제 풀이를 분야 별로 모았습니다.</p>
+          <p className="text-base md:text-lg">솔루션 및 기출 문제 풀이를 분야 별로 모았습니다.</p>
         </header>
         {SubjectItems.map((item, idx) => (
           <SubjectItem key={idx} name={item.subject} item={item.solutions}></SubjectItem>
