@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "sgt.solutions",
+  "name": "수과토 솔루션 모음집",
   "icons": [
     {
       "src": "favicon.ico",
