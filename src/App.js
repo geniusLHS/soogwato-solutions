@@ -1,16 +1,15 @@
 // import logo from './logo.svg';
 // import './App.css';
-import SolutionItem from './components/SolutionItem';
 import SubjectItem from './components/SubjectItem';
 
 let SubjectItems = [
   {
     subject: '미적분학',
     solutions: [
-      { name: '김홍종 미적분학 솔루션 (by 하승우)', link: 'http://goo.gl/kkX9m9' },
+      { name: '김홍종 미적분학 (2판) 풀이집', link: 'http://goo.gl/kkX9m9' },
+      { name: '김홍종 미적분학 (3판) 탐구문제 풀이집', link: 'https://bit.ly/3NVqf9V' },
       { name: '수1 기출 풀이 및 유형별 자료', link: 'https://bit.ly/3TpwsMG' },
       { name: '수2 기출 풀이 및 유형별 자료', link: 'https://bit.ly/41art5z' },
-      // { name: '김홍종 미적분학 탐구문제', link: '' },
     ],
   },
   {
