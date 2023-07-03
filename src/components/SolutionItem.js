@@ -5,7 +5,12 @@ const SolutionItem = ({ item }) => {
     <a
       target="_blank"
       href={item.link}
-      onClick={`gtag('event', 'click', { event_category: 'Solution Link Click', event_label:${item.label}})`}
+      onClick={() =>
+        window.gtag('event', 'solution_link_click', {
+          label: item.label,
+          solution_name: item.name,
+        })
+      }
       className="w-full border border-gray-300 rounded-lg py-3 px-4 flex items-center gap-4 bg-white"
       rel="noreferrer"
     >
