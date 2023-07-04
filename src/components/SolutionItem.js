@@ -7,7 +7,7 @@ const SolutionItem = ({ item }) => {
       href={item.link}
       onClick={() =>
         window.gtag('event', 'solution_link_click', {
-          label: item.label,
+          solution_label: item.label,
           solution_name: item.name,
         })
       }
