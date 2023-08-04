@@ -35,7 +35,7 @@ function App() {
       <div className="max-w-xl mx-auto w-full space-y-10">
         <header className="space-y-3">
           <h1 className="text-3xl md:text-[2.5rem] font-extrabold">
-            <img alt="soogwato-logo" src="logo.png" className="h-12 inline mx-1 pb-2"></img> 수과토 솔루션 모음집
+            <img alt="soogwato-logo" src="logo.png" className="h-12 inline mx-1 pb-2"></img> 수과토 Solution
           </h1>
           <p className="text-base md:text-lg">솔루션 및 기출 문제 풀이를 분야 별로 모았습니다.</p>
         </header>
