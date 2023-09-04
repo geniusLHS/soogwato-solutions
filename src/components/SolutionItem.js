@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const SolutionItem = ({ item }) => {
   return (
@@ -6,12 +6,12 @@ const SolutionItem = ({ item }) => {
       target="_blank"
       href={item.link}
       onClick={() =>
-        window.gtag('event', 'solution_link_click', {
+        window.gtag("event", "solution_link_click", {
           solution_label: item.label,
           solution_name: item.name,
         })
       }
-      className="w-full border border-gray-300 rounded-lg py-3 px-4 flex items-center gap-4 bg-white"
+      className="w-full shadow-md hover:bg-gray-100 transition rounded-lg py-3 px-4 flex items-center gap-4 bg-white"
       rel="noreferrer"
     >
       <div className="">
