@@ -16,7 +16,8 @@ let SubjectItems = [
   {
     subject: "선형대수학",
     solutions: [
-      { name: "프리드버그 풀이집", link: "https://math.berkeley.edu/~nadler/110fall2012", label: "LINE_friedberg" },
+      // { name: "프리드버그 풀이집", link: "https://math.berkeley.edu/~nadler/110fall2012", label: "LINE_friedberg" },
+      { name: "프리드버그 4판 풀이집", link: "https://jlch3554.files.wordpress.com/2012/11/la-solution-2011-7.pdf", label: "LINE_friedberg.4" },
       { name: "선대군 풀이집", link: "https://rudmath.tistory.com/48", label: "LINE_line.and.group" },
     ],
   },
@@ -24,8 +25,9 @@ let SubjectItems = [
     subject: "해석학",
     solutions: [
       { name: "김김계 풀이집", link: "https://jsch89.tistory.com/5", label: "ANLY_kkk" },
-      { name: "베이비루딘 풀이집 1", link: "https://rudmath.tistory.com/46", label: "ANLY_rudin.PMA(1)" },
-      { name: "베이비루딘 풀이집 2", link: "https://www.csie.ntu.edu.tw/~b89089/old/math/pma/index.html", label: "ANLY_rudin.PMA(2)" },
+      // { name: "베이비루딘 풀이집 1", link: "https://rudmath.tistory.com/46", label: "ANLY_rudin.PMA(1)" },
+      // { name: "베이비루딘 풀이집 2", link: "https://www.csie.ntu.edu.tw/~b89089/old/math/pma/index.html", label: "ANLY_rudin.PMA(2)" },
+      { name: "루딘 PMA 풀이집", link: "https://pages.cs.wisc.edu/~wentaowu/other-docs/POMA_Solution_Sheet.pdf", label: "ANLY_rudin.PMA(3)" },
     ],
   },
 ];
