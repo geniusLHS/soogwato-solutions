@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import SubjectItem from "./components/SubjectItem";
+import UnimeItem from "./components/UnimeItem";
 
 let SubjectItems = [
   {
@@ -39,6 +40,7 @@ function App() {
           </h1>
           <p className="text-base md:text-lg">솔루션 및 기출 문제 풀이를 분야별로 모았습니다.</p>
         </header>
+        {/* <UnimeItem></UnimeItem> */}
         {SubjectItems.map((item, idx) => (
           <SubjectItem key={idx} name={item.subject} item={item.solutions}></SubjectItem>
         ))}
