@@ -46,7 +46,7 @@ function App() {
         {SubjectItems.map((item, idx) => (
           <SubjectItem key={idx} name={item.subject} item={item.solutions}></SubjectItem>
         ))}
-        <footer className="mt-10 w-full border-t border-t-[#898ea4] pt-10 text-center text-sm text-gray-500">© 2023 geniusLHS</footer>
+        <footer className="mt-10 w-full border-t border-t-[#898ea4] pt-10 text-center text-sm text-gray-500">© 2024 geniusLHS</footer>
       </div>
     </div>
   );
