@@ -11,6 +11,7 @@ let SubjectItems = [
       { name: "김홍종 미적분학 (3판) 탐구문제 풀이집", link: "https://bit.ly/3NVqf9V", label: "CALC_khj.3.adv" },
       { name: "수1 기출 풀이 및 유형별 자료", link: "https://bit.ly/3TpwsMG", label: "CALC_calc.1.prev" },
       { name: "수2 기출 풀이 및 유형별 자료", link: "https://bit.ly/41art5z", label: "CALC_calc.2.prev" },
+      { name: "수연도우미 유튜브 채널: 개념 설명 및 기출 문제 풀이", link: "https://www.youtube.com/@snu7244", label: "CALC_yt.snu7244" },
     ],
   },
   {
