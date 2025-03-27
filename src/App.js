@@ -35,19 +35,21 @@ let SubjectItems = [
 
 function App() {
   return (
-    <div className="py-8 sm:py-12 font-sans px-4 bg-[#fbfbfb]">
-      <div className="max-w-xl mx-auto w-full space-y-10">
+    <div className="min-h-screen py-8 sm:py-12 font-sans px-4 bg-white">
+      <div className="max-w-2xl mx-auto w-full space-y-12">
         <header className="space-y-3">
-          <h1 className="text-3xl md:text-[2.5rem] font-extrabold">
-            <img alt="soogwato-logo" src="logo.png" className="h-12 inline mx-1 pb-2"></img> 수과토 Solution
+          <h1 className="text-3xl md:text-[2.5rem] font-semibold">
+            <img alt="soogwato-logo" src="logo.png" className="h-12 inline mr-1 pb-2"></img> 수과토 Solution
           </h1>
-          <p className="text-base md:text-lg">솔루션 및 기출 문제 풀이를 분야별로 모았습니다.</p>
+          <p className="text-base md:text-lg text-gray-600">솔루션 및 기출 문제 풀이를 분야별로 모았습니다.</p>
         </header>
         {/* <UnimeItem></UnimeItem> */}
-        {SubjectItems.map((item, idx) => (
-          <SubjectItem key={idx} name={item.subject} item={item.solutions}></SubjectItem>
-        ))}
-        <footer className="mt-10 w-full border-t border-t-[#898ea4] pt-10 text-center text-sm text-gray-500">© 2024 geniusLHS</footer>
+        <div className="space-y-8">
+          {SubjectItems.map((item, idx) => (
+            <SubjectItem key={idx} name={item.subject} item={item.solutions}></SubjectItem>
+          ))}
+        </div>
+        <footer className="mt-12 w-full border-t border-gray-200 pt-8 text-center text-sm text-gray-500">© {new Date().getFullYear()} geniusLHS</footer>
       </div>
     </div>
   );

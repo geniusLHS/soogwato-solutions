@@ -1,4 +1,4 @@
-import SolutionItem from './SolutionItem';
+import SolutionItem from "./SolutionItem";
 
 const SubjectItem = ({ name, item }) => {
   return (
