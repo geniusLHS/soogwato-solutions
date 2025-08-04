@@ -2,6 +2,7 @@
 // import './App.css';
 import SubjectItem from "./components/SubjectItem";
 import UnimeItem from "./components/UnimeItem";
+import Notice from "./components/Notice";
 
 let SubjectItems = [
   {
@@ -29,6 +30,7 @@ let SubjectItems = [
       // { name: "베이비루딘 풀이집 1", link: "https://rudmath.tistory.com/46", label: "ANLY_rudin.PMA(1)" },
       // { name: "베이비루딘 풀이집 2", link: "https://www.csie.ntu.edu.tw/~b89089/old/math/pma/index.html", label: "ANLY_rudin.PMA(2)" },
       { name: "루딘 PMA 풀이집", link: "https://pages.cs.wisc.edu/~wentaowu/other-docs/POMA_Solution_Sheet.pdf", label: "ANLY_rudin.PMA(3)" },
+      { name: "STEIN 복소해석학 풀이집", link: "https://geniuslhs.com/solutions/stein-complex-analysis.pdf", label: "ANLY_stein.complex", new: true },
     ],
   },
 ];
@@ -42,6 +44,7 @@ function App() {
             <img alt="soogwato-logo" src="logo.png" className="h-12 inline mr-1 pb-2"></img> 수과토 Solution
           </h1>
           <p className="text-base md:text-lg text-gray-600">솔루션 및 기출 문제 풀이를 분야별로 모았습니다.</p>
+          <Notice />
         </header>
         {/* <UnimeItem></UnimeItem> */}
         <div className="space-y-8">
