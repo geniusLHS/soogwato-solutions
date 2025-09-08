@@ -22,10 +22,10 @@ export default function Notice() {
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-2">
             <span className="bg-red-500 text-white text-xs font-semibold px-1 py-0.5 rounded-md">NEW</span>
-            <span className="text-gray-800 font-medium">STEIN 복소해석학 풀이집이 추가되었습니다.</span>
+            <span className="text-gray-800 font-medium">Stein 복소해석학 풀이집이 추가되었습니다.</span>
           </div>
           <div className="flex items-center gap-2 text-base text-red-600 font-semibold">
-            STEIN 복소해석학 풀이집 바로가기
+            Stein 복소해석학 풀이집 바로가기
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-red-400" viewBox="0 0 20 20" fill="currentColor">
               <path
                 fillRule="evenodd"

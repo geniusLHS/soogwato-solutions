@@ -67,7 +67,7 @@ let SubjectItems = [
         label: "ANLY_rudin.PMA(3)",
       },
       {
-        name: "STEIN 복소해석학 풀이집",
+        name: "Stein 복소해석학 풀이집",
         link: "https://geniuslhs.com/solutions/stein-complex-analysis.pdf",
         label: "ANLY_stein.complex",
         new: true,
